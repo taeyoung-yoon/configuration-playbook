@@ -1,0 +1,7 @@
+---
+- hosts: Group3
+  remote_user: ec2-user
+  gather_facts: False
+  become: True
+  roles:
+    - role : configuration
