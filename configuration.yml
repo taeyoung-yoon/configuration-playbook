@@ -1,5 +1,5 @@
 ---
-- hosts: install-Nginx-hosts 35.72.30.210
+- hosts: 10.242.20.53
   remote_user: ec2-user
   gather_facts: False
   become: True
