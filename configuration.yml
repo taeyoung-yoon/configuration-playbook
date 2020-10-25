@@ -1,5 +1,5 @@
 ---
-- hosts: Install-nginx
+- hosts: 10.242.20.161
   remote_user: ec2-user
   gather_facts: False
   become: True
