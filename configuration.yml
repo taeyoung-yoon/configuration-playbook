@@ -1,5 +1,5 @@
 ---
-- hosts: Install-Nginx-Group
+- hosts: group1
   remote_user: ec2-user
   gather_facts: False
   become: True
