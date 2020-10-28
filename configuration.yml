@@ -1,5 +1,5 @@
 ---
-- hosts: group test
+- hosts: group_test
   remote_user: ec2-user
   gather_facts: False
   become: True
