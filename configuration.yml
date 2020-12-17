@@ -1,5 +1,5 @@
 ---
-- hosts: group_test
+- hosts: 13.209.89.117 52.79.148.191 3.34.137.80
   gather_facts: False
   become: True
   roles:
