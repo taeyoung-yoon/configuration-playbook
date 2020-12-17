@@ -1,0 +1,6 @@
+---
+- hosts: 10.242.20.215
+  gather_facts: False
+  become: True
+  roles:
+    - role : configuration
