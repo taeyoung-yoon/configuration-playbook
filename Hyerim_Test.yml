@@ -1,5 +1,5 @@
 ---
-- hosts: 18.177.155.138
+- hosts: 18.177.155.138 13.230.42.90
   gather_facts: False
   become: True
   roles:
