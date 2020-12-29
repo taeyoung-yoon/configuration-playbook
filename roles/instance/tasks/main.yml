@@ -8,6 +8,6 @@
     vpc_subnet_id: "{{vpc_subnet_id}}"
     group_id: "{{sec_group}}"
     instance_tags:
-      Name: "{{ec2-name}}"
+      Name: "{{instance-name}}"
     wait: true
     count: 1
