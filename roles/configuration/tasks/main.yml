@@ -1,6 +1,6 @@
 ---
 - name: Host Info Facts
-  command: "{{hostname}}"
+  command: hostname
   register: host_info
   
 - name: Print Host Name
