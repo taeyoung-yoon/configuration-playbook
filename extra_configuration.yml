@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 13.230.42.90
   connection: local
   gather_facts: False
   roles:
