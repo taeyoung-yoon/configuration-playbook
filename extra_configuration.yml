@@ -2,5 +2,6 @@
 - hosts: 13.230.42.90 18.177.155.138
   connection: local
   gather_facts: False
+  become: True
   roles:
     - role: configuration
