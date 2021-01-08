@@ -3,6 +3,6 @@
   connection: local
   gather_facts: False
   vars_files:
-    - group_vars/instance.yml
+    - group_vars/ec2.yml
   roles:
     - role: instance
