@@ -1,7 +1,7 @@
 ---
-key_name: asgard-test-ec2-ssh-key
-region: ap-northeast-1
-image: ami-0b2c2a754d5b4da22
-sec_group: sg-0acbda0211358279c
-vpc_subnet_id: subnet-072198026ade90e7a
-instance_name: extra-vars-test-instance
+key_name: soyoung.ahn-2
+region: ap-northeast-2
+image: ami-01af223aa7f274198
+sec_group: sg-03252da9fdcf08949
+vpc_subnet_id: subnet-1af11756
+instance_name: QA Test > DevOS
