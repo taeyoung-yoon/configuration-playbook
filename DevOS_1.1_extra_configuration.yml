@@ -1,0 +1,8 @@
+---
+- hosts: groups 
+  gather_facts: False
+  become: true
+  vars_files:
+    - group_vars/configuration.yml
+  roles:
+    - role: configuration
