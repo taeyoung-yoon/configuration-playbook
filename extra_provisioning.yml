@@ -2,5 +2,7 @@
 - hosts: localhost
   connection: local
   gather_facts: False
+  vars_files:
+    - group_vars/instance.yml
   roles:
     - role: instance
