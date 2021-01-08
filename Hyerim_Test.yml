@@ -1,6 +1,0 @@
----
-- hosts: test-abc
-  gather_facts: False
-  become: True
-  roles:
-    - role : configuration
