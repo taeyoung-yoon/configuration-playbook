@@ -1,5 +1,5 @@
 ---
-- hosts: Group QA test 
+- hosts: Group_qa_test
   gather_facts: False
   become: true
   vars_files:
