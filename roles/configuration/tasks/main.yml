@@ -8,7 +8,9 @@
     msg: "hostName is {{host_info.stdout}}"
 
 - name: Install Nginx
-  command: amazon-linux-extras install nginx1 -y
+  yum:
+    name: nginx
+    state: present
     
 - name: Start Nginx
   service:
