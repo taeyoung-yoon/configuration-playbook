@@ -1,0 +1,11 @@
+/.idea/$PROJECT_FILE$
+/.idea/.gitignore
+/.idea/checkstyle-idea.xml
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/configuration-playbook.iml
+/.idea/sonarlint/issuestore/index.pb
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/qaplug_profiles.xml
+/.idea/thriftCompiler.xml
+/.idea/vcs.xml
