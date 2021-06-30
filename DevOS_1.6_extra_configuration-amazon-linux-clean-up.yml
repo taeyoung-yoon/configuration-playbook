@@ -6,5 +6,5 @@
     - group_vars/configuration.yml
   tasks:
     - include_role:
-      name: amazon-linux
-      tasks_from: absent
+        name: amazon-linux
+        tasks_from: absent
