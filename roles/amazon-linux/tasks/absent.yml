@@ -12,7 +12,7 @@
     name: nginx
     state: stopped
 
-- name: Uninstll Nginx
+- name: Uninstall Nginx
   yum:
     name: nginx
     state: absent
