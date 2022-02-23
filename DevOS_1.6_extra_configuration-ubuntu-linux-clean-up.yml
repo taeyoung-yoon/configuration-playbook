@@ -1,0 +1,10 @@
+---
+- hosts: Group_qa_test
+  gather_facts: False
+  become: true
+  vars_files:
+    - group_vars/configuration.yml
+  tasks:
+    - include_role:
+        name: ubuntu-linux
+        tasks_from: absent

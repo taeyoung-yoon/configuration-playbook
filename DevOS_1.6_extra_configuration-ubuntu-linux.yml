@@ -1,0 +1,8 @@
+---
+- hosts: Group_qa_test
+  gather_facts: False
+  become: true
+  vars_files:
+    - group_vars/configuration.yml
+  roles:
+    - role: ubuntu-linux
